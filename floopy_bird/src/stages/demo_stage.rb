@@ -2,7 +2,7 @@ define_stage :demo do
   # render_with :my_renderer
 
   curtain_up do
-    @player = spawn :player, x: 10, y:30
+    @bird = create_actor :bird, x: 100, y: 300
   end
 
   # helpers do
